@@ -93,3 +93,85 @@ pie title 市场分析
 | 老师表   | 保存教职工信息     | 批量导入 | 姓名、职工号 | 职工号 |
 | 部门表   | 保存部门、班级信息 | 批量导入 | 名称、编号   | 编号   |
 
+
+# 第四章 功能实现
+
+## 4.1 后台代码实现
+
+​```java
+public class Starter {
+	public static void main(String[] args) {
+  	System.out.println("Hello world");
+  }
+}
+​```
+
+## 4.2 前端代码实现
+
+前端 HTML 代码：
+
+​```html
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <p>Hello world.</p>
+  </body>
+</html>
+​```
+
+前端脚本代码：
+
+​```javascript
+function main() {
+	alert("Hello world!");
+}
+
+window.onload = main;
+​```
+
+## 4.3 配置文件代码
+
+properties 类型的配置文件：
+
+​```properties
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/helloworld?characterEncoding=utf8
+jdbc.username=root
+jdbc.password=root
+​```
+
+## 4.4 运行及启动日志
+
+​```bash
+java Starter
+---
+Hello world
+​```
+
+网页截图：
+
+![](../images/4-1.png)
+
+<center>图4-1：访问效果图</center>
+
+@requires_authorization
+
+def somefunc(param1='', param2=0):
+
+'''A docstring'''
+
+if param1 > param2: # interesting
+
+print 'Greater'
+
+return (param2-param1+1) or None
+
+Class SomeClass:
+
+pass
+
+>>> message = '''interpreter
+
+... prompt'''
+
